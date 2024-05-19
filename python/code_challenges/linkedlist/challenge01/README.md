@@ -52,5 +52,3 @@
 * Leave a description of how long this assignment took you in the comments box.
 * Add any additional comments to your grader about your process or any difficulties you may have had with the assignment.
 * Merge your branch into main, and delete your branch (don't worry, the PR link will still work).
-
-![alt text](<To do project (1).jpg>)
