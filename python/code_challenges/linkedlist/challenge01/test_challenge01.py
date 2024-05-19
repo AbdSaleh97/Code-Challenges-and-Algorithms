@@ -1,5 +1,5 @@
 # Write your test here
-from challenge01 import ListNode, delete_node
+from challenge01 import *
 
 def create_linked_list():
     """
@@ -72,3 +72,30 @@ def test_delete_second_node():
     assert head.next.val == 3
     assert head.next.next.val == 4
     assert head.next.next.next is None  # Ensure the end of the list is None
+
+def test_str_single_node_linked_list():
+    """
+    Test the string representation of a linked list with a single node.
+    """
+    single_node_linked_list = ListNode(5)
+    assert str(single_node_linked_list) == "5"
+
+def test_str_node_linked_list():
+    # Create individual nodes
+    node1 = ListNode(5)
+    node2 = ListNode(4)
+    node3 = ListNode(3)
+    node4 = ListNode(2)
+    node5 = ListNode(1)
+
+    # Link the nodes together
+    node1.next = node2
+    node2.next = node3
+    node3.next = node4
+    node4.next = node5
+
+    # Create the head of the linked list
+    head = node1
+
+    assert str(head) == "5->4->3->2->1"
+
