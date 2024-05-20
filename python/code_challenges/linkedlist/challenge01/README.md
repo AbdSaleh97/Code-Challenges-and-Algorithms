@@ -34,6 +34,8 @@
 
 ## Instruction:
 
+<<<<<<< HEAD
+=======
 * Create a branch called `ll_delete_node`.
 * Run this command to pull the code challenge question: `npm run pull-challenge linkedlist 01`
 * Navigate to the challenge folder: `code-challenges/linkedlist/challenge01`
@@ -42,6 +44,7 @@
 * Document your work along with an image of your whiteboard in the `whiteboard.md` file.
 * To run your test: `npm test`
 
+>>>>>>> 0f0f40ca48acee7bd089227cc9f549585fafb8cf
 ## Language: `Python`:
 
 * Create a branch called `ll_delete_node`.
@@ -60,5 +63,9 @@
 * Leave a description of how long this assignment took you in the comments box.
 * Add any additional comments to your grader about your process or any difficulties you may have had with the assignment.
 * Merge your branch into main, and delete your branch (don't worry, the PR link will still work).
+<<<<<<< HEAD
+![alt text](whiteBoard.jpg)
+=======
 
 ![alt text](<To do project (1).jpg>)
+>>>>>>> 0f0f40ca48acee7bd089227cc9f549585fafb8cf
