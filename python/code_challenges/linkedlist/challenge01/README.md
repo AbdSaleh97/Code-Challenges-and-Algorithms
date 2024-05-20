@@ -34,8 +34,6 @@
 
 ## Instruction:
 
-### Language: `JavaScript`:
-
 * Create a branch called `ll_delete_node`.
 * Run this command to pull the code challenge question: `npm run pull-challenge linkedlist 01`
 * Navigate to the challenge folder: `code-challenges/linkedlist/challenge01`
@@ -54,15 +52,6 @@
 * Document your work along with an image of your whiteboard in the `whiteboard.md` file.
 * To run your test: `pytest`
 
-## Language: `Java`:
-
-* Create a branch called `ll_delete_node`.
-* Run this command to pull the code challenge question: `npm run pull-challenge linkedlist 01`
-* Navigate to the challenge folder: `code-challenges/linkedlist/challenge01`
-* Write your solution in `App.java` file.
-* Write your tests in `AppTest.java` file.
-* Document your work along with an image of your whiteboard in the `whiteboard.md` file.
-* To run your test: `gradle test`
 
 ## Submission:
 * ACP your work once you are done.
@@ -71,3 +60,5 @@
 * Leave a description of how long this assignment took you in the comments box.
 * Add any additional comments to your grader about your process or any difficulties you may have had with the assignment.
 * Merge your branch into main, and delete your branch (don't worry, the PR link will still work).
+
+![alt text](<To do project (1).jpg>)
