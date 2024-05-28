@@ -1,6 +1,18 @@
 from LinkedList import LinkedList, Node
 
 def test_insert():
+    """
+    Test the insert_node method of the LinkedList class.
+    
+    This function performs the following tests:
+    1. Creates a linked list and appends nodes with values 1, 2, and 3.
+    2. Inserts a new node with value 4 after the node with value 2.
+       - Asserts that the linked list is now [1, 2, 4, 3].
+    3. Inserts a new node with value 5 after the node with value 1.
+       - Asserts that the linked list is now [1, 5, 2, 4, 3].
+    4. Inserts a new node with value 6 after the node with value 3.
+       - Asserts that the linked list is now [1, 5, 2, 4, 3, 6].
+    """
     # Create a linked list
     linked_list = LinkedList()
 
