@@ -43,3 +43,21 @@ class ListNode:
         middle_nodes = arr[len(arr) // 2:]  # Start from the middle to the end
         
         return middle_nodes
+
+
+if __name__ == "__main__":
+    # Create the linked list and append nodes
+    head = ListNode(1)
+    head.append(2)
+    head.append(3)
+    head.append(4)
+    head.append(5)
+    head.append(6)
+
+    # Print the linked list
+    print("Linked List:")
+    head.print_linked_list()
+
+    # Find and print the middle to end nodes
+    middle_to_end = head.find_middle()
+    print("Middle to End Nodes:", middle_to_end)
