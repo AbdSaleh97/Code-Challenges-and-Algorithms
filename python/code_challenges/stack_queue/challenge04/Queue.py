@@ -49,9 +49,29 @@ class Queue:
     def get_size(self):
         return self.size
     
+
     def reverse_queue(self):
         if self.empty():
-            return 
+            return
+        """
+        Reverses the elements in the queue.
+
+        This function reverses the order of elements in the queue. It does this by iterating through the queue from the rear to the front, updating the next pointers of each node to point to the previous node. The front of the queue becomes the rear of the reversed queue, and the rear of the queue becomes the front of the reversed queue.
+
+        Parameters:
+        - self: The instance of the Queue class.
+
+        Returns:
+        - None: If the queue is empty or has only one element, the function returns None.
+
+        Note:
+        - This function modifies the queue in-place.
+
+        Example:
+        - Before reversing: [1, 2, 3, 4, 5]
+        - After reversing: [5, 4, 3, 2, 1]
+        """
+           
         if self.get_size() == 1:
             return
         prev = self.rear
@@ -80,4 +100,18 @@ class Queue:
                 current = current.next
             arr.append("Front")  # Append "Front" at the end
             return " -> ".join(arr)  # Join elements with " -> "
+
+
+q = Queue()
+
+q.push(1)
+q.push(2)
+q.push(3)
+q.push(4)
+q.push(5)
+
+print(q.print_linked_list())
+q.reverse_queue()
+print(q.print_linked_list())
+
 
