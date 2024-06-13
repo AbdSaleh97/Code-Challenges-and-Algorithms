@@ -1,8 +1,17 @@
-# Write here the code challenge solution
 from Stack import Stack
 
-
 def isValid(s: str) -> bool:
+    """
+    Checks if the input string of brackets is valid. A string of brackets is considered valid if:
+    - Open brackets must be closed by the same type of brackets.
+    - Open brackets must be closed in the correct order.
+    
+    Args:
+        s (str): The input string containing brackets.
+    
+    Returns:
+        bool: True if the input string is valid, False otherwise.
+    """
     stack = Stack()
     opening_brackets = "([{"
     closing_brackets = ")]}"
@@ -28,9 +37,3 @@ print(isValid("[({}]"))              # Output: False
 print(isValid("[(hello)()]"))        # Output: True
 print(isValid("[{(())}(){[]}]"))     # Output: True
 print(isValid("{[((({{{{}}}})))]}")) # Output: True
-
-
-
-
-
-
